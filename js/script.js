@@ -45,4 +45,15 @@ $( document ).ready(function() {
     }
 
 
+    $('.mobile-menu').click(function () {
+        $('.page-menu').toggleClass('active');
+        $('body').css('overflow','hidden');
+        $('.mobile-menu').toggle();
+    });
+    $('.page-menu').click(function () {
+        $('.page-menu').toggleClass('active');
+        $('body').css('overflow','auto');
+        $('.mobile-menu').toggle();
+    });
+
 });
