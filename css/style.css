@@ -348,6 +348,43 @@ header .standard-button {
 
 
 
+/*-----------------------------good stripe------------------------------------------------------------  */
+.good-stripe{
+  background-color: #494137;
+
+}
+.good-stripe .prod-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.good-stripe p{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  line-height: 32px;
+  position: relative;
+}
+.stripe-text img{
+  display: block;
+  margin: 8px auto;
+}
+.col-price{
+  position: relative;
+}
+.col-stripe{
+  max-width: 33.333%;
+}
+.good-stripe .price {
+  top: 16px;
+  right: -12px;
+}
+/*-----------------------------END good stripe------------------------------------------------------------  */
+
+
+
 /*------------------------------------comments-------------------------------------------------------*/
 
 .comments {
@@ -1218,7 +1255,8 @@ form .privacy-step1 label {
     display: block;
   }
   .about-goods .button-wrapper {
-    padding: 0 0 35px; }
+    padding: 0 0 20px;
+  }
   .page-menu{
     display: none;
   }
@@ -1244,7 +1282,38 @@ form .privacy-step1 label {
   .page-menu.active li{
     margin:8px 0;
   }
-
+  .good-stripe .prod-container{
+    flex-direction: column;
+  }
+  .col-stripe{
+    max-width:100%;
+  }
+  .good-stripe .stripe-text {
+    order: 0;
+  }
+  .good-stripe .col-price{
+    order: 1;
+    width: 100%;
+  }
+  .good-stripe .col-button{
+    order: 2;
+    width: 100%;
+  }
+  .good-stripe .stripe-text img {
+    transform: rotate(90deg);
+    margin: 40px auto;
+  }
+  .good-stripe .col-price img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .good-stripe .button-wrapper {
+    margin: 20px 0;
+  }
+  .good-stripe .price {
+    top: 6px;
+    right: 6px;
+  }
   form .security_box{
     padding: 0;
     display: flex;
