@@ -411,11 +411,15 @@ header .standard-button {
   margin: 8px;
 }
 .fact-item .fact-descr {
-  font-size: 20px;
   margin: 8px;
 }
 .fact-descr h4 {
   font-weight: 700;
+  font-size: 20px;
+}
+.fact-descr p{
+  font-size: 20px;
+  line-height: 24px;
 }
 .facts .fact-wrap{
   display: flex;
@@ -600,7 +604,7 @@ header .standard-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  align-items: center;
 }
 .fifth-screen .col-prod-text{
   padding: 32px 20px 8px;
@@ -786,7 +790,7 @@ header .standard-button {
 form {
   background: transparent; }
 form .head_bg {
-  background: #242424;;
+  background: #2b251d;
   padding-top: 5px; }
 form .head_bg.sec_step {
   padding-top: 30px; }
@@ -1509,7 +1513,9 @@ form .privacy-step1 label {
     margin: 5px 24px 15px;
   }
 
-
+  .bottom .prod-container {
+    flex-direction: column-reverse;
+  }
 
 
   form .security_box{
