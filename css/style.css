@@ -545,6 +545,56 @@ header .standard-button {
   font-size: 20px;
 }
 /*---------------------------------------------third screen END---------------------------------------------*/
+/*-----------------------------------------------fourth screen-----------------------------------------------*/
+.fourth-screen h3{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 5px;
+}
+.fourth-screen .prod-container {
+  padding: 20px 0;
+}
+.fourth-screen-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0 0;
+}
+.fourth-screen-item {
+  margin: 32px 0;
+  max-width: 700px;
+  position: relative;
+}
+.fourth-screen-item h5{
+  font-weight: bold;
+  font-size: 24px;
+}
+.fourth-screen-item p{
+  font-size: 20px;
+}
+.fourth-screen .fourth-screen-item:nth-child(2),
+.fourth-screen .fourth-screen-item:nth-child(3){
+  margin: 32px 0 32px 40px;
+}
+.fourth-screen .fourth-screen-wrapper {
+  background: url("../images/ellipse.png") 40% 50% no-repeat;
+  background-size: contain;
+}
+.fourth-screen-item::before{
+  content: url(../images/medal.svg);
+  position: absolute;
+  left: -97px;
+  top: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 3px solid #e3e3e3;
+  padding: 10px;
+}
+/*-----------------------------------------------fourth screen END--------------------------------------------*/
 /*------------------------------------comments-------------------------------------------------------*/
 
 .comments {
@@ -1306,6 +1356,27 @@ form .privacy-step1 label {
   }
   .third-screen h3{
     margin: 5px auto 20px;
+  }
+
+  .fourth-screen-wrapper{
+    flex-direction: column;
+    text-align: center;
+  }
+  .fourth-screen .fourth-screen-wrapper{
+    background: none;
+
+  }
+  .fourth-screen .fourth-screen-item:nth-child(2),
+  .fourth-screen .fourth-screen-item:nth-child(3){
+    margin: 96px 8px;
+  }
+  .fourth-screen-item {
+    margin: 96px 8px 8px;
+  }
+  .fourth-screen-item::before {
+    left: 50%;
+    top: -88px;
+    margin-left: -40px;
   }
 
 
