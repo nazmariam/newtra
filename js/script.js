@@ -14,7 +14,7 @@ $( document ).ready(function() {
                 timer = duration;
             }
         }, 1000);
-    };
+    }
 
     window.onload = function () {
         var sixtyMinutes = 60 * 60,

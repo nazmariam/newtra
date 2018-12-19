@@ -11,69 +11,19 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700;subset=cyrillic" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="css/flipclock.css">
     <link type="text/css" rel="stylesheet" href="css/nice-select.css">
     <link type="text/css" rel="stylesheet" href="css/slick.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/flipclock.min.js"></script>
     <script type="text/javascript" src="js/jquery.nice-select.min.js"></script>
     <script type="text/javascript" src="js/mask.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
 
-    <style>
-        body.loading .spinner-container,
-        body.focus-form .spinner-container{
-            opacity: !important;
-            display: none!important;
-        }
-
-        body.loading::before {
-            content: "Stiamo inviando l'ordine...";
-            color: #FFF;
-            display:block;
-            text-align:center;
-            height: 100px;
-            line-height: 100px;
-            position:fixed;
-            z-index:9999;
-            font-size:40px;
-            width:100%;
-            top:50%;
-            margin-top:-50px;
-        }
-        body.loading::after {
-            content: ' ';
-            position: fixed;
-            z-index: 999;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            background: rgba(0,0,0,0.8);
-            display: block;
-        }
-
-        body.loading {
-            position: relative;
-        }
-    </style>
 
 
-    <!-- Start Visual Website Optimizer Asynchronous Code -->
-    <script type='text/javascript'>
-        var _vwo_code=(function(){
-            var account_id=349681,
-                settings_tolerance=2000,
-                library_tolerance=2500,
-                use_existing_jquery=false,
-                /* DO NOT EDIT BELOW THIS LINE */
-                f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-    </script>
-    <!-- End Visual Website Optimizer Asynchronous Code -->
 </head>
 <body>
 
@@ -87,12 +37,12 @@
         <span></span>
     </nav>
         <ul class="page-menu ">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">Come funziona</a></li>
-            <li><a href="#">Ingredienti</a></li>
-            <li><a href="#">Perchè acquistare</a></li>
-            <li><a href="#">Parola agli esperti</a></li>
-            <li><a href="#">Recensioni</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Come-funziona">Come funziona</a></li>
+            <li><a href="#Ingredienti">Ingredienti</a></li>
+            <li><a href="#Perche-acquistare">Perchè acquistare</a></li>
+            <li><a href="#Parola-agli-esperti">Parola agli esperti</a></li>
+            <li><a href="#Recensioni">Recensioni</a></li>
         </ul>
     <div class="button-wrapper">
         <a href="#AnchorOrderForm" class="standard-button"><b>Ordina Ora!</b></a>
@@ -139,31 +89,7 @@
 
                 </div>
 
-            <!--<div class="row mg-top mg-none">-->
-                <!--<div class="offset-md-1 col-md-3 col-sm-12 col-xs-12 text-center">-->
-                    <!--<div class="circle-check">-->
-                        <!--<img src="/supercutter/images/circle-check.png">-->
-                        <!--<h4>Taglia <br/>velocemente</h4>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-3 col-sm-12 col-xs-12 text-center">-->
-                    <!--<div class="circle-check">-->
-                        <!--<img src="/supercutter/images/circle-check.png">-->
-                        <!--<h4>Taglia in <br/>Sicurezza </h4>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-3 col-sm-12 col-xs-12 text-center">-->
-                    <!--<div class="circle-check">-->
-                        <!--<img src="/supercutter/images/circle-check.png">-->
-                        <!--<h4>Taglia alla  <br/>Perfezione</h4>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-12 mobile-visible">-->
-                    <!--<div class="button-wrapper">-->
-                        <!--<a href="#AnchorOrderForm" class="standard-button"><b>Ordina Ora!</b><span>Più di 13.371 Clienti Soddisfatti</span></a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+
         </div>
     </section>
 
@@ -191,6 +117,7 @@
     </section>
 
     <section class="facts">
+        <div id="Come-funziona"></div>
         <div class="col-prod-img">
             <h3 class="mobile-visible">It is a long established fact that a reader</h3>
             <div class="image-wrapper">
@@ -258,6 +185,7 @@
 
     <section class="third-screen">
         <div class="prod-container">
+            <div id="Ingredienti"></div>
             <h3>There are many variations of passages of Lorem Ipsum</h3>
             <div class="third-screen-wrapper">
                 <div class="col-third-screen">
@@ -319,6 +247,7 @@
     </section>
 
     <section class="fourth-screen">
+        <div id="Perche-acquistare"></div>
         <div class="prod-container">
             <h3>There are many variations of passages of Lorem Ipsum</h3>
             <div class="fourth-screen-wrapper">
@@ -372,6 +301,7 @@
     </section>
 
     <section class="fifth-screen">
+        <div id="Parola-agli-esperti"></div>
         <div class="prod-container">
             <div class="col-prod-text">
                 <h3 class="mobile-hidden">Where can I get some?</h3>
@@ -409,145 +339,146 @@
         </div>
     </section>
 
+    <section class="comments" id="Recensioni">
+        <div class="comments mobile-visible">
 
-    <section class="comments mobile-visible">
-        <div class="container">
-            <div class="row">
-                <!--<div class="col-md-12 text-center">-->
-                <!--<h2>Cosa dicono i clienti:</h2>-->
-                <!--</div>-->
-                <div id="demo" class="carousel slide mobile-visible" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                        <li data-target="#demo" data-slide-to="3"></li>
-                        <li data-target="#demo" data-slide-to="4"></li>
-                        <li data-target="#demo" data-slide-to="5"></li>
-                    </ul>
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="comment-item">
-                                <div class="image-wrapper first-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Maria Bettini</span> Ho riparato la mia borsetta finalmente! Il gatto me l’aveva graffiata tutta, e mi avevano chiesto quasi 300€ per sistemarla… invece ho fatto tutto da sola!! Facilissimo!!</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><span class="grey"><img src="images/dot.png" alt=""></span><span class="grey">1w</span>
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">47</span>
+            <div class="container">
+                <div class="row">
+                    <!--<div class="col-md-12 text-center">-->
+                    <!--<h2>Cosa dicono i clienti:</h2>-->
+                    <!--</div>-->
+                    <div id="demo" class="carousel slide mobile-visible" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                            <li data-target="#demo" data-slide-to="4"></li>
+                            <li data-target="#demo" data-slide-to="5"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="comment-item">
+                                    <div class="image-wrapper first-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Maria Bettini</span> Ho riparato la mia borsetta finalmente! Il gatto me l’aveva graffiata tutta, e mi avevano chiesto quasi 300€ per sistemarla… invece ho fatto tutto da sola!! Facilissimo!!</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><span class="grey"><img src="images/dot.png" alt=""></span><span class="grey">1w</span>
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">47</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="comment-item">
-                                <div class="image-wrapper second-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Manuela Sbravatti </span> Non avrei mai detto che anche una persona senza la minima manualità come me sarebbe riuscita a sistemare la poltrona di casa….. se aspettavo mio marito non sarebbe ai successo!! :D</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">7</span>
+                            <div class="carousel-item">
+                                <div class="comment-item">
+                                    <div class="image-wrapper second-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Manuela Sbravatti </span> Non avrei mai detto che anche una persona senza la minima manualità come me sarebbe riuscita a sistemare la poltrona di casa….. se aspettavo mio marito non sarebbe ai successo!! :D</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">7</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="comment-item">
-                                <div class="image-wrapper third-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Giorgio Cagliari</span> Un sedile della mia BMW aveva un buco ausato da un bambino… In meno di 20 minuti è tornato come nuovo!!!! Meno male che vi ho conosciuti!!!! Chissà quanto avrei speso altrimenti!!!!</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">13</span>
+                            <div class="carousel-item">
+                                <div class="comment-item">
+                                    <div class="image-wrapper third-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Giorgio Cagliari</span> Un sedile della mia BMW aveva un buco ausato da un bambino… In meno di 20 minuti è tornato come nuovo!!!! Meno male che vi ho conosciuti!!!! Chissà quanto avrei speso altrimenti!!!!</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">13</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="comment-item">
-                                <div class="image-wrapper first-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Maria Bettini</span> Ho riparato la mia borsetta finalmente! Il gatto me l’aveva graffiata tutta, e mi avevano chiesto quasi 300€ per sistemarla… invece ho fatto tutto da sola!! Facilissimo!!</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><span class="grey"><img src="images/dot.png" alt=""></span><span class="grey">1w</span>
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">47</span>
+                            <div class="carousel-item">
+                                <div class="comment-item">
+                                    <div class="image-wrapper first-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Maria Bettini</span> Ho riparato la mia borsetta finalmente! Il gatto me l’aveva graffiata tutta, e mi avevano chiesto quasi 300€ per sistemarla… invece ho fatto tutto da sola!! Facilissimo!!</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><span class="grey"><img src="images/dot.png" alt=""></span><span class="grey">1w</span>
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">47</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="comment-item">
-                                <div class="image-wrapper second-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Manuela Sbravatti </span> Non avrei mai detto che anche una persona senza la minima manualità come me sarebbe riuscita a sistemare la poltrona di casa….. se aspettavo mio marito non sarebbe ai successo!! :D</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">7</span>
+                            <div class="carousel-item">
+                                <div class="comment-item">
+                                    <div class="image-wrapper second-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Manuela Sbravatti </span> Non avrei mai detto che anche una persona senza la minima manualità come me sarebbe riuscita a sistemare la poltrona di casa….. se aspettavo mio marito non sarebbe ai successo!! :D</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">7</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="comment-item">
-                                <div class="image-wrapper third-user">
-                                </div>
-                                <div class="body-comment">
-                                    <p><span class="name">Giorgio Cagliari</span> Un sedile della mia BMW aveva un buco ausato da un bambino… In meno di 20 minuti è tornato come nuovo!!!! Meno male che vi ho conosciuti!!!! Chissà quanto avrei speso altrimenti!!!!</p>
-                                    <div class="like-row">
-                                        <div class="text">
-                                            <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
-                                        </div>
-                                        <div class="icons">
-                                            <img src="images/like.svg" alt="like">
-                                            <span class="grey">13</span>
+                            <div class="carousel-item">
+                                <div class="comment-item">
+                                    <div class="image-wrapper third-user">
+                                    </div>
+                                    <div class="body-comment">
+                                        <p><span class="name">Giorgio Cagliari</span> Un sedile della mia BMW aveva un buco ausato da un bambino… In meno di 20 minuti è tornato come nuovo!!!! Meno male che vi ho conosciuti!!!! Chissà quanto avrei speso altrimenti!!!!</p>
+                                        <div class="like-row">
+                                            <div class="text">
+                                                <span class="blue">Like</span><span class="grey"><img src="images/dot.png" alt=""></span><span class="blue">Reply </span><img src="images/dot.png" alt="">
+                                            </div>
+                                            <div class="icons">
+                                                <img src="images/like.svg" alt="like">
+                                                <span class="grey">13</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
 
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
+        <div class="comments mobile-hidden">
 
-    <section class="comments mobile-hidden">
             <div class="row slick com-wrap">
                 <div class="col-md-12 text-center">
                     <h2>Cosa dicono i clienti:</h2>
@@ -661,7 +592,9 @@
                 </div>
 
             </div>
+        </div>
     </section>
+
 
     <section class="good-stripe">
         <div class="prod-container">
@@ -685,7 +618,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="facts bottom">
         <div class="prod-container">
@@ -735,10 +667,6 @@
 
 
     </section>
-
-
-
-
 
     <section class="form">
 

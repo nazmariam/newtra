@@ -1348,6 +1348,13 @@ form .privacy-step1 label {
   header{
     flex-direction: column-reverse;
   }
+  header .button-wrapper {
+    align-self: flex-end;
+    margin: 8px;
+  }
+  header .standard-button{
+    padding: 10px 60px;
+  }
   .mobile-menu{
     float: left;
     position: absolute;
@@ -1440,6 +1447,7 @@ form .privacy-step1 label {
   .good-stripe .stripe-text img {
     transform: rotate(90deg);
     margin: 40px auto;
+    animation: none;
   }
   .good-stripe .col-price img {
     width: 100%;
