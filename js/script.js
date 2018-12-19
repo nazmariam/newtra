@@ -24,6 +24,11 @@ $( document ).ready(function() {
 
 
 
+    $('.faq_list h2').click(function (e) {
+        $(this).next('.result').slideToggle();
+        $(this).toggleClass('active');
+    });
+
     $('select').niceSelect();
 
     if (screen.width < 768) {
