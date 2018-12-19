@@ -764,6 +764,23 @@ header .standard-button {
   padding: 8px 90px;
 }
 /*---------------------------comments END----------------------------*/
+/*----------------------------------------facts bottom----------------------------------------------------*/
+.bottom .fact-wrap{
+  justify-content: center;
+}
+.bottom .prod-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom .fact-item{
+  max-width: 250px;
+}
+.bottom .fact-descr h4{
+  font-size: 20px;
+}
+/*----------------------------------------facts bottom END----------------------------------------------------*/
 
   /*--------------------------------------------------form----------------------------------------------------------------*/
 form {
