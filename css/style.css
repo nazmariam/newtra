@@ -491,7 +491,60 @@ header .standard-button {
   position: relative;
   left: 17%;
 }
+/*---------------------------------------------third screen---------------------------------------------*/
+.third-screen{
+  background: #e5e5e5;
+  background-image: url(../images/BG-image.png), url(../images/BG-image.png);
+  background-position: left , right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
 
+}
+.third-screen .prod-container{
+  background-color: #fff;
+  padding: 20px 0 0;
+}
+.third-screen .third-screen-wrapper{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.third-screen h3{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px auto;
+  max-width: 920px;
+}
+.col-third-screen{
+  max-width: 33.333%;
+}
+.full{
+  max-width: 45%;
+  margin: 20px auto;
+  text-align: center;
+}
+.third-screen-item{
+  display:flex;
+  flex-direction: column;
+  margin: 20px;
+
+}
+.third-screen-item h5{
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px 0;
+}
+.third-screen-item p {
+  border-top: 3px solid #f78f31;
+  padding: 16px 0;
+  font-size: 20px;
+}
+/*---------------------------------------------third screen END---------------------------------------------*/
 /*------------------------------------comments-------------------------------------------------------*/
 
 .comments {
@@ -1226,6 +1279,41 @@ form .privacy-step1 label {
   .facts{
     flex-direction: column;
   }
+  .third-screen .third-screen-wrapper {
+    flex-direction: column;
+  }
+  .third-screen-wrapper .col-third-screen:nth-child(2){
+    order:0;
+  }
+  .third-screen .col-third-screen:nth-child(1){
+    order:1;
+  }
+  .third-screen .col-third-screen:nth-child(3){
+    order:2;
+  }
+  .third-screen .col-third-screen:nth-child(4){
+    order:3;
+  }
+  .col-third-screen{
+    max-width: 100%;
+    text-align: center;
+  }
+  .third-screen-item{
+    margin: 10px 10px 0;
+  }
+  .full{
+    margin: auto;
+  }
+  .third-screen h3{
+    margin: 5px auto 20px;
+  }
+
+
+
+
+
+
+
   form .security_box{
     padding: 0;
     display: flex;
